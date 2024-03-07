@@ -1,0 +1,115 @@
+/* колір основного текста сірий #757575; */
+/* колір другорядного color: #212121; */
+/* синій #2196F3 */
+/* колір фона #F5F4FA */
+/*  */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --white-color: #FFFFFF;
+    --secondary-color: #2196F3;
+    --background-color: #F5F4FA;
+
+}
+
+
+.body {
+    color: var(--primary-text-color);
+}
+
+/*  INDEX.HTML  */
+
+.logo-one {
+    color: var(--secondary-color);
+}
+.logo-two {
+    color: var(--title-text-color);
+}
+
+.site-naw .link {
+    color: var(--title-text-color);
+}
+
+.studio {
+    color: var(--secondary-color);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+    
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+}
+
+.benefits-title {
+    color: var(--title-text-color);
+}
+
+.benefits-title-list {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.team-name {
+    color: var(--title-text-color);
+}
+
+.team-profession {
+    color: var(--primary-text-color);
+}
+
+
+
+
+/*  CONTACTS  */
+
+.contact-adress {
+    color: var(--white-color);
+}
+
+.contact-mail {
+    color: var(--primary-text-color);
+}
+
+.contact-phone {
+color: var(--primary-text-color);
+}
+
+
+/*  PORTFOLIO.HTML  */
+
+
+.portfolio {
+    color: var(--secondary-color);
+}
+
+.filter-list-item {
+    color: var(--title-text-color);
+    background-color: var(--background-color);
+}
+
+.filter-list-item:hover {
+background-color: var(--secondary-color);
+}
+
+.project-list-name {
+color: var(--title-text-color);
+}
+
+.project-list-item {
+color: var(--primary-text-color);
+}
+
+.project-list-slide {
+color: var(--background-color);
+}
