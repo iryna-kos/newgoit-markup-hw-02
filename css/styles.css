@@ -18,6 +18,7 @@ body {
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
+    background-color: var(--background-color);
 }
 
 /*  INDEX.HTML  */
@@ -55,7 +56,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.site-naw .link:hover
+.site-naw .link:hover,
 .site-naw .link:focus {
     color: var(--secondary-color);
 }
@@ -78,7 +79,7 @@ letter-spacing: 0.02em;
 
 }
 
-.contacts .link:hover
+.contacts .link:hover,
 .contacts .link:focus {
 color: var(--secondary-color);
 }
@@ -129,6 +130,10 @@ font-weight: 700;
 line-height: 1.2;
 text-align: center;
 
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -201,6 +206,7 @@ letter-spacing: 0.03em;
 background-color: var(--secondary-color);
 color: var(--background-color);
 }
+
 
 .project-list-name {
 color: var(--title-text-color);
